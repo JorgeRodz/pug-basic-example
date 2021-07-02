@@ -1,2 +1,16 @@
-# pug-basic-example
-Repositorio con los archivos por default de un proyecto en el cual usamos el template engine pug para crear nuestros html de una manera dinámica usando templates.
+# Pug basic template example
+Archivos base para crear un proyecto usando pug.
+Features de pug que utilizamos en el proyecto:
+- includes
+- block
+- extends
+
+## paquetes incluidos en el repo
+- parcel v2
+- autoprefixer
+- npm-run-all
+- pug-cli
+
+**Estos mismo los utilizamos para crear scripts los cuales nos sirven para desarrollar un:**
+- developt workflow
+- build workflow
