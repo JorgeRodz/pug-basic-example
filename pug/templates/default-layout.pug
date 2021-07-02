@@ -1,0 +1,16 @@
+//- Indica que estamos usando html5
+doctype html
+//- Indicamos el lenguaje de nuestra pagina web
+html(lang="esp")
+  head
+    meta(name='viewport' content='width=device-width, initial-scale=1.0')
+    //- Titulo del documento
+    link(rel="stylesheet", href="./scss/styles.scss")
+    title Acme Cleaning Services Ltd
+  body
+    block header
+      include ./../includes/header-default
+    block main
+      include ./../includes/main-default
+    block footer
+      include ./../includes/footer-default
